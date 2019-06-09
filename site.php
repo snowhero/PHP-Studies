@@ -34,6 +34,8 @@
             echo "Index string by array position >> \$variable[i] <br>";
             echo "ie.) \$header[0] = $header[0], \$header[4] = $header[4], and \$header[10] = $header[10] <br>";
             echo "<br> Let's practice function: str_replace(target-text, new-text, target-string)";
+            $stringPhrase = "This is the test phase.";
+            echo "<br>Ex.) String phrase: $stringPhrase";
         ?>
 
     </body>
