@@ -35,7 +35,10 @@
             echo "ie.) \$header[0] = $header[0], \$header[4] = $header[4], and \$header[10] = $header[10] <br>";
             echo "<br> Let's practice function: str_replace(target-text, new-text, target-string)";
             $stringPhrase = "This is the test phase.";
-            echo "<br>Ex.) String phrase: $stringPhrase";
+            echo "<br>Ex.) String phrase: $stringPhrase<br>";
+            echo "...Now using: str_replace(\"test\", \"best\", \"\$stringPhrase\")";
+            echo "<br>...We get: ";
+            echo str_replace("test", "best", $stringPhrase);
         ?>
 
     </body>
